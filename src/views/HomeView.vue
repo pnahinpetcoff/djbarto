@@ -204,7 +204,7 @@
                     dense 
                     color="deep-purple darken-3" 
                     icon="fa-regular fa-envelope"
-                    href="mailto:franmarquevich@gmail.com">
+                    href="mailto:franmarquevich@gmail.com?subject=Interesado%20en%20BartoDJ&cc=focoactiva@gmail.com">
                   </v-btn>
                 </v-card-actions>
               </div>
