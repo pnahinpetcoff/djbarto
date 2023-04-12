@@ -14,6 +14,16 @@
         <v-col cols="12">
           <v-card>
             <v-card-text v-html="this.text"></v-card-text>
+            <v-row>
+              <v-col cols="3">
+                <v-img
+                  width="100"
+                  src="a4.png">
+                </v-img>
+              </v-col>
+              <v-col cols="9">
+              </v-col>
+            </v-row>
           </v-card>
         </v-col>        
         <v-col cols="12"></v-col>
