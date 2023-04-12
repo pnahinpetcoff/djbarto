@@ -26,6 +26,12 @@
           </v-card>
         </v-col>
       </v-row>
+      <v-row>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+      </v-row>
       <h1>{{'MUSIC & EVENTS'}}</h1>
       <v-row>
         <v-col cols="12">
@@ -46,6 +52,12 @@
           <iframe width="100%" height="315" src="https://youtube.com/embed/Vc3eaMOrbWE?start=0"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
           </iframe>          
         </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
       </v-row>
       <h1>{{'DJ ACADEMY'}}</h1>
       <v-row>
@@ -69,6 +81,12 @@
             <v-card-text v-html="this.textAcademy"></v-card-text>
           </v-card>
         </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
       </v-row>
       <h1>{{'FOCO AGENCY'}}</h1>
       <v-row>
@@ -95,6 +113,12 @@
           </v-card>
         </v-col>
       </v-row>
+      <v-row>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+      </v-row>
       <h1>{{'BIO'}}</h1>
       <v-row>
         <v-col cols="12">
@@ -110,6 +134,12 @@
             <v-card-text v-html="this.textBio"></v-card-text>
           </v-card>
         </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
       </v-row>
       <h1>{{'MERCH'}}</h1>
       <v-row>
@@ -138,6 +168,12 @@
             <v-card-actions><v-btn dense color="deep-purple darken-3">BUY ME!</v-btn></v-card-actions>
           </v-card>
         </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
       </v-row>
       <h1>{{'CONTACT'}}</h1>
       <v-row>
@@ -176,6 +212,12 @@
             </div>
           </v-card>
         </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
       </v-row>
     </v-container>
   </div>
