@@ -1,19 +1,54 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import Home from '../views/HomeView.vue'
+import Contact from '../views/ContactView.vue'
+import Bio from '../views/BioView.vue'
+import Merch from '../views/MerchView.vue'
+import Music from '../views/MusicView.vue'
+import Academy from '../views/AcademyView.vue'
+import Agency from '../views/AgencyView.vue'
+import Todo from '../views/TodoView.vue'
+
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'TodoView',
+    component: Todo
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/home',
+    name: 'home',
+    component: Home
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: Contact
+  },
+  {
+    path: '/merch',
+    name: 'merch',
+    component: Merch
+  },
+  {
+    path: '/bio',
+    name: 'bio',
+    component: Bio
+  },
+  {
+    path: '/music',
+    name: 'music',
+    component: Music
+  },
+  {
+    path: '/academy',
+    name: 'academy',
+    component: Academy
+  },
+  {
+    path: '/agency',
+    name: 'agency',
+    component: Agency
   }
 ]
 
