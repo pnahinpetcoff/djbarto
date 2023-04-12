@@ -28,20 +28,13 @@
                   </v-btn>
                 </v-card-actions>
               </div>
-              <v-avatar
-                class="ma-3"
-                size="125"
-                rounded="0"
-              >
-                <v-img src="a2.png"></v-img>
-              </v-avatar>
             </div>
           </v-card>
         </v-col>
         <v-col cols="12"></v-col>
         <v-col cols="12"></v-col>
         <v-divider thickness="10" color="deep-purple darken-3"></v-divider>
-        <v-col cols="12"><v-text>SalchiDevs®</v-text></v-col>
+        <v-col cols="12"><text>SalchiDevs®</text></v-col>
         <v-col cols="12"></v-col>
       </v-row>
     </v-container>

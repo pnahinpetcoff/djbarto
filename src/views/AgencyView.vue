@@ -22,13 +22,23 @@
         </v-col>
         <v-col cols="12">
           <v-card>
-            <v-card-text v-html="this.text"></v-card-text>
+            <v-card-text v-html="this.text">
+            </v-card-text>
+            <v-row>
+              <v-col cols="3">
+                <v-img
+                  src="a2.png">
+                </v-img>
+              </v-col>
+              <v-col cols="9">
+              </v-col>
+            </v-row>
           </v-card>
-        </v-col>        
+        </v-col>
         <v-col cols="12"></v-col>
         <v-col cols="12"></v-col>
         <v-divider thickness="10" color="deep-purple darken-3"></v-divider>
-        <v-col cols="12"><v-text>SalchiDevs®</v-text></v-col>
+        <v-col cols="12"><text>SalchiDevs®</text></v-col>
         <v-col cols="12"></v-col>
       </v-row>
     </v-container>
