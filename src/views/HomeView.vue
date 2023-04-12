@@ -5,7 +5,7 @@
       <v-row>
         <v-col cols="12">
           <v-card>
-            <v-carousel show-arrows="hover">
+            <v-carousel cycle="2" show-arrows="hover">
               <v-carousel-item
                 src="i1 (2).png"
                 cover
