@@ -223,7 +223,7 @@
         <v-col cols="12"></v-col>
         <v-col cols="12"></v-col>
         <v-divider thickness="10" color="deep-purple darken-3"></v-divider>
-        <v-col cols="12"></v-col>
+        <v-col cols="12"><v-text>SalchiDevs®</v-text></v-col>
         <v-col cols="12"></v-col>
       </v-row>
     </v-container>
@@ -233,7 +233,7 @@
 <script>
 
 export default {
-  name: 'TodoView',
+  name: 'HomeView',
   data() {
     return {
       textContact: 'franmarquevich@gmail.com</br>focoactiva@gmail.com</br>+54 9 11 55283428</br>',

@@ -21,8 +21,11 @@
           <iframe width="100%" height="315" src="https://youtube.com/embed/Vc3eaMOrbWE?start=0"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
           </iframe>          
         </v-col>
-        <v-col cols="12">        
-        </v-col>
+        <v-col cols="12"></v-col>
+        <v-col cols="12"></v-col>
+        <v-divider thickness="10" color="deep-purple darken-3"></v-divider>
+        <v-col cols="12"><v-text>SalchiDevs®</v-text></v-col>
+        <v-col cols="12"></v-col>
       </v-row>
     </v-container>
   </div>

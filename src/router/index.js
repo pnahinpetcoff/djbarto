@@ -6,14 +6,14 @@ import Merch from '../views/MerchView.vue'
 import Music from '../views/MusicView.vue'
 import Academy from '../views/AcademyView.vue'
 import Agency from '../views/AgencyView.vue'
-import Todo from '../views/TodoView.vue'
+import Home from '../views/HomeView.vue'
 
 
 const routes = [
   {
     path: '/',
-    name: 'todo',
-    component: Todo
+    name: 'home',
+    component: Home
   },
   {
     path: '/pics',
