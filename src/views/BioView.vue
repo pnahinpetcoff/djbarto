@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container>
-      <h1>BIO</h1>
+      <h1>{{'BIO'}}</h1>
       <v-row>
         <v-col cols="12">
           <v-card>

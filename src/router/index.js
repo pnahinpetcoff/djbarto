@@ -12,7 +12,7 @@ import Todo from '../views/TodoView.vue'
 const routes = [
   {
     path: '/',
-    name: 'TodoView',
+    name: 'todo',
     component: Todo
   },
   {

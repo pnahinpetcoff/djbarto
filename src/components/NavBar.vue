@@ -1,7 +1,10 @@
 <template>
   <v-container fluid>
     <v-app-bar app color="deep-purple darken-3">
-      <v-img src="i13.png" :max-height="600" right></v-img>
+      <v-btn :to="'/'" height="200" max-width="200">
+        <v-img src="a1.png" :width="200">
+        </v-img>
+      </v-btn>
       <v-spacer> </v-spacer> 
       <v-spacer> </v-spacer>
       <v-spacer> </v-spacer>
@@ -25,9 +28,6 @@
 
 export default {
   methods: {
-    route(item) {
-      this.$router.go(item.route)
-    }
   },
   data() {
     return {
@@ -40,23 +40,8 @@ export default {
         }, */
         {
           title: "HOME",
-          route: "/home",
+          route: "home",
           id: 2
-        },
-        {
-          title: "CONTACT",
-          route: "/contact",
-          id: 3
-        },
-        {
-          title: "BIO",
-          route: "bio",
-          id: 4
-        },
-        {
-          title: "MERCH",
-          route: "merch",
-          id: 5
         },
         {
           title: "MUSIC AND EVENTS",
@@ -73,10 +58,30 @@ export default {
           route: "agency",
           id: 8
         },
+        {
+          title: "BIO",
+          route: "bio",
+          id: 4
+        },
+        {
+          title: "MERCH",
+          route: "merch",
+          id: 5
+        },
+        {
+          title: "CONTACT",
+          route: "contact",
+          id: 3
+        },
       ],
     };
   },
 };
 </script>
 
-<style></style>
+
+<style scoped>
+.row-pointer {
+  cursor: pointer;
+}
+</style>

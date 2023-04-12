@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container>
-      <h1>CONTACT</h1>
+      <h1>{{'CONTACT'}}</h1>
       <v-row>
         <v-col >
           <v-card>

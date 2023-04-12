@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container>
-      <h1>FOCO AGENCY</h1>
+      <h1>{{'FOCO AGENCY'}}</h1>
       <v-row>
         <v-col cols="6">
           <v-card>

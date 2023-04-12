@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container>
-      <h1>DJ ACADEMY</h1>
+      <h1>{{'DJ ACADEMY'}}</h1>
       <v-row>
         <v-col cols="6">
           <v-card>
