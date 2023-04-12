@@ -17,7 +17,7 @@
                   dense 
                   color="deep-purple darken-3" 
                   icon="fa-brands fa-whatsapp"
-                  href="https://api.whatsapp.com/send?phone=541161034185&text=Hello! I need to contact you to arrange an event with BARTO DJ" 
+                  href="https://api.whatsapp.com/send?phone=541161034185" 
                   target="_blank">
                   </v-btn>
                   <v-btn 
