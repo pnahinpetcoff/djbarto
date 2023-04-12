@@ -7,6 +7,7 @@ import Music from '../views/MusicView.vue'
 import Academy from '../views/AcademyView.vue'
 import Agency from '../views/AgencyView.vue'
 import Home from '../views/HomeView.vue'
+import Donation from '../views/DonationView.vue'
 
 
 const routes = [
@@ -49,6 +50,11 @@ const routes = [
     path: '/agency',
     name: 'agency',
     component: Agency
+  },
+  {
+    path: '/donation',
+    name: 'donation',
+    component: Donation
   }
 ]
 
