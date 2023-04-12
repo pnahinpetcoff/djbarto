@@ -39,8 +39,8 @@ export default {
           id: 1
         }, */
         {
-          title: "HOME",
-          route: "home",
+          title: "PICS",
+          route: "pics",
           id: 2
         },
         {

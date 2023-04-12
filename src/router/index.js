@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/HomeView.vue'
+import Pics from '../views/PicsView.vue'
 import Contact from '../views/ContactView.vue'
 import Bio from '../views/BioView.vue'
 import Merch from '../views/MerchView.vue'
@@ -16,9 +16,9 @@ const routes = [
     component: Todo
   },
   {
-    path: '/home',
-    name: 'home',
-    component: Home
+    path: '/pics',
+    name: 'pics',
+    component: Pics
   },
   {
     path: '/contact',
