@@ -6,7 +6,7 @@
         <v-col cols="6">
           <v-card>
             <v-img
-              src="i10.png"
+              :src="img1"
               :max-height="400" 
             ></v-img>
           </v-card>
@@ -14,7 +14,7 @@
         <v-col cols="6">
           <v-card>
             <v-img
-              src="i11.png"
+              :src="img2"
               :max-height="400" 
               cover
             ></v-img>
@@ -27,7 +27,7 @@
             <v-row>
               <v-col cols="3">
                 <v-img
-                  src="a2.png">
+                  :src="img3">
                 </v-img>
               </v-col>
               <v-col cols="9">
@@ -36,9 +36,7 @@
           </v-card>
         </v-col>
         <v-col cols="12"></v-col>
-        <v-col cols="12"></v-col>
         <v-divider thickness="10" color="deep-purple darken-3"></v-divider>
-        <v-col cols="12"><text>SalchiDevs®</text></v-col>
         <v-col cols="12"></v-col>
       </v-row>
     </v-container>
@@ -48,6 +46,20 @@
 <script>
 
 export default {
+  props: {
+    img1: {
+      type: String,
+      default: 'i10.png'
+    },
+    img2: {
+      type: String,
+      default: 'i11.png'
+    },
+    img3: {
+      type: String,
+      default: 'a2.png'
+    }
+  },
   name: 'FocoView',
   data() {
     return {

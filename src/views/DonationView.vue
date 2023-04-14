@@ -19,7 +19,7 @@
                     dense 
                     color="deep-purple darken-3"
                   >
-                    <v-img src="a5.png" width="30"> </v-img>
+                    <v-img :src="img1" width="30"> </v-img>
                   </v-btn>
                   <v-btn
                     dense 
@@ -33,9 +33,7 @@
           </v-card>
         </v-col>
         <v-col cols="12"></v-col>
-        <v-col cols="12"></v-col>
         <v-divider thickness="10" color="deep-purple darken-3"></v-divider>
-        <v-col cols="12"><text>SalchiDevs®</text></v-col>
         <v-col cols="12"></v-col>
       </v-row>
     </v-container>
@@ -45,6 +43,12 @@
 <script>
 
 export default {
+  props: {
+    img1: {
+      type: String,
+      default: 'a5.png'
+    }
+  },
   name: 'ContactView',
   data() {
     return {

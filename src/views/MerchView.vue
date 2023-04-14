@@ -6,19 +6,20 @@
         <v-col cols="6">
           <v-card>
             <v-img
-              src="i6.png"
+              :src="img1"
               :max-height="400" 
+              cover
             ></v-img>
             <v-card-title>Basic T-Shirt</v-card-title>
             <v-card-subtitle>USD 20</v-card-subtitle>
             <v-card-text>Confortable cotton made</v-card-text>
-            <v-card-actions><v-btn color="deep-purple darken-3">BUY ME!</v-btn></v-card-actions>
+            <v-card-actions><v-btn dense color="deep-purple darken-3">BUY ME!</v-btn></v-card-actions>
           </v-card>
         </v-col>
         <v-col cols="6">
           <v-card>
             <v-img
-              src="i7.png"
+              :src="img2"
               :max-height="400" 
               cover
             ></v-img>
@@ -29,9 +30,7 @@
           </v-card>
         </v-col>
         <v-col cols="12"></v-col>
-        <v-col cols="12"></v-col>
         <v-divider thickness="10" color="deep-purple darken-3"></v-divider>
-        <v-col cols="12"><text>SalchiDevs®</text></v-col>
         <v-col cols="12"></v-col>
       </v-row>
     </v-container>
@@ -41,6 +40,16 @@
 <script>
 
 export default {
+  props: {
+    img1: {
+      type: String,
+      default: 'i6.png'
+    },
+    img2: {
+      type: String,
+      default: 'i7.png'
+    }
+  },
   name: 'MerchView',
   data() {
     return {

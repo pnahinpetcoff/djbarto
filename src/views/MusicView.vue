@@ -22,9 +22,7 @@
           </iframe>          
         </v-col>
         <v-col cols="12"></v-col>
-        <v-col cols="12"></v-col>
         <v-divider thickness="10" color="deep-purple darken-3"></v-divider>
-        <v-col cols="12"><text>SalchiDevs®</text></v-col>
         <v-col cols="12"></v-col>
       </v-row>
     </v-container>

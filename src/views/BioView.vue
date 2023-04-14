@@ -6,7 +6,7 @@
         <v-col cols="12">
           <v-card>
             <v-img
-              src="i5.png"
+              :src="img1"
               :max-height="400" 
             ></v-img>
           </v-card>
@@ -18,7 +18,7 @@
               <v-col cols="3">
                 <v-img
                   width="100"
-                  src="a4.png">
+                  :src="img2">
                 </v-img>
               </v-col>
               <v-col cols="9">
@@ -27,9 +27,7 @@
           </v-card>
         </v-col>        
         <v-col cols="12"></v-col>
-        <v-col cols="12"></v-col>
         <v-divider thickness="10" color="deep-purple darken-3"></v-divider>
-        <v-col cols="12"><text>SalchiDevs®</text></v-col>
         <v-col cols="12"></v-col>
       </v-row>
     </v-container>
@@ -39,6 +37,16 @@
 <script>
 
 export default {
+  props: {
+    img1: {
+      type: String,
+      default: 'i5.png'
+    },
+    img2: {
+      type: String,
+      default: 'a4.png'
+    }
+  },
   name: 'BioView',
   data() {
     return {
