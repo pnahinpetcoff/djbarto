@@ -70,6 +70,11 @@ export default {
           route: "contact",
           id: 3,
         },
+        {
+          title: "DONATION",
+          route: "donation",
+          id: 3,
+        }
       ],
     };
   },

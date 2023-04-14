@@ -1,16 +1,15 @@
 <template>
   <v-app>
     <Navbar/>
-    <v-content class="ma-4">
+    <div class="ma-4">
       <router-view v-slot="{ Component }">
         <keep-alive>
           <component :is="Component" />
         </keep-alive>
       </router-view>
-    </v-content>
+    </div>
     <Footer class="foot"/>
   </v-app>
- 
 </template>
 
 <script>

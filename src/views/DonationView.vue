@@ -13,12 +13,20 @@
                 </v-card-text>
                 <v-card-actions>
                   <v-btn
-                    icon="fab fa-instagram"
-                    variant="plain"
-                    color="white"
                     href="https://mpago.la/2j2MPsN"
                     target="_blank"
-                  ></v-btn>
+                    width="30"
+                    dense 
+                    color="deep-purple darken-3"
+                  >
+                    <v-img src="a5.png" width="30"> </v-img>
+                  </v-btn>
+                  <v-btn
+                    dense 
+                    color="deep-purple darken-3" 
+                    icon="fa-brands fa-paypal"
+                  >
+                  </v-btn>
                 </v-card-actions>
               </div>
             </div>

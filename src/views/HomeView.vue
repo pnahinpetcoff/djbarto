@@ -5,7 +5,7 @@
       <v-row>
         <v-col cols="12">
           <v-card>
-            <v-carousel cycle="2" show-arrows="hover">
+            <v-carousel :cycle="true" show-arrows="hover">
               <v-carousel-item
                 src="i1 (2).png"
                 cover
@@ -257,8 +257,6 @@
               <div>
                 <v-card-title>{{'¿Querés ayudar al artista?'}}</v-card-title> 
                 <v-card-subtitle>{{'¡Invitame un cafecito!'}}</v-card-subtitle>
-                <v-card-text v-html="this.text">
-                </v-card-text>
                 <v-card-actions>
                   <v-btn
                     href="https://mpago.la/2j2MPsN"
