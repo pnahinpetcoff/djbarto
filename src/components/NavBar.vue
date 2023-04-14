@@ -20,6 +20,7 @@
           :key="item.id"
           :to="item.route"
           active-class="border"
+           @click="drawer = false"
         >
           <v-list-item-title>{{ item.title }}</v-list-item-title>
         </v-list-item>
