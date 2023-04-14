@@ -1,7 +1,7 @@
 <template>
   <v-container fluid>
     <v-app-bar app color="deep-purple darken-3">
-      <v-btn :to="'/'" height="200" max-width="200" @click="drawer = false">
+      <v-btn :to="'/'" height="200" max-width="200" @click="drawer = false" id="bartoDjHome">
         <v-img src="a1.png" :width="200"> </v-img>
       </v-btn>
       <v-spacer> </v-spacer>

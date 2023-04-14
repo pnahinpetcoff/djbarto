@@ -3,6 +3,7 @@
     <v-row>
       <v-col cols="3">
         <v-btn
+          id="soundCloudMedia"
           icon="fab fa-soundcloud"
           variant="plain"
           color="white"
@@ -13,6 +14,7 @@
       </v-col>
       <v-col cols="3">
         <v-btn
+          id="spotifyMedia"
           icon="fab fa-spotify"
           variant="plain"
           color="white"
@@ -22,6 +24,7 @@
       </v-col>
       <v-col cols="3">
         <v-btn
+          id="youTubeMedia"
           icon="fab fa-youtube"
           variant="plain"
           color="white"
@@ -31,6 +34,7 @@
       </v-col>
       <v-col cols="3">
         <v-btn
+          id="instagramMedia"
           icon="fab fa-instagram"
           variant="plain"
           color="white"

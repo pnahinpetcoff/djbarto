@@ -14,13 +14,15 @@
                 </v-card-text>
                 <v-card-actions>
                   <v-btn 
-                  dense 
-                  color="deep-purple darken-3" 
-                  icon="fa-brands fa-whatsapp"
-                  href="https://api.whatsapp.com/send?phone=541161034185" 
-                  target="_blank">
+                    id="whatsAppContact"
+                    dense 
+                    color="deep-purple darken-3" 
+                    icon="fa-brands fa-whatsapp"
+                    href="https://api.whatsapp.com/send?phone=541161034185" 
+                    target="_blank">
                   </v-btn>
                   <v-btn 
+                    id="eMailContact"
                     dense 
                     color="deep-purple darken-3" 
                     icon="fa-regular fa-envelope"

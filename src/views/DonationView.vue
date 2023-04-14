@@ -11,6 +11,7 @@
                 <v-card-subtitle>{{'¡Invitame un cafecito!'}}</v-card-subtitle>
                 <v-card-actions>
                   <v-btn
+                    id="mercadoPagoLink"
                     href="https://mpago.la/2j2MPsN"
                     target="_blank"
                     width="30"
@@ -20,6 +21,7 @@
                     <v-img :src="img1" width="30"> </v-img>
                   </v-btn>
                   <v-btn
+                    id="payPalLink"
                     dense 
                     color="deep-purple darken-3" 
                     icon="fa-brands fa-paypal"
