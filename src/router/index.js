@@ -3,7 +3,6 @@ import Pics from '../views/PicsView.vue'
 import Contact from '../views/ContactView.vue'
 import Bio from '../views/BioView.vue'
 import Merch from '../views/MerchView.vue'
-import Music from '../views/MusicView.vue'
 import Academy from '../views/AcademyView.vue'
 import Agency from '../views/AgencyView.vue'
 import Home from '../views/HomeView.vue'
@@ -40,7 +39,7 @@ const routes = [
   {
     path: '/music',
     name: 'music',
-    component: Music
+    component: () => import('../views/MusicView.vue')
   },
   {
     path: '/academy',
