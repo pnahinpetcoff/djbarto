@@ -9,8 +9,6 @@
               <div>
                 <v-card-title>{{'¿Querés ayudar al artista?'}}</v-card-title> 
                 <v-card-subtitle>{{'¡Invitame un cafecito!'}}</v-card-subtitle>
-                <v-card-text v-html="this.text">
-                </v-card-text>
                 <v-card-actions>
                   <v-btn
                     href="https://mpago.la/2j2MPsN"
@@ -52,7 +50,7 @@ export default {
   name: 'ContactView',
   data() {
     return {
-      text: 'franmarquevich@gmail.com</br>focoactiva@gmail.com</br>+54 9 11 55283428</br>'
+      
     };
   },
   components: {
