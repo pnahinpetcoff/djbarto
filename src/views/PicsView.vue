@@ -5,7 +5,7 @@
         <v-row>
           <v-col cols="12">
             <v-card>
-              <v-carousel :cycle="true" show-arrows="hover">
+              <v-carousel :cycle="true" show-arrows="hover" color="deep-purple darken-3">
                 <v-carousel-item
                   :src="img1"
                   cover

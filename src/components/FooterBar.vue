@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="bg-deep-purple text-center">
+  <v-container fluid class="bg-deep-purple darken-3 text-center">
     <v-row>
       <v-col cols="3">
         <v-btn
