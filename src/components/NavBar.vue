@@ -7,7 +7,7 @@
       <v-spacer> </v-spacer>
       <v-spacer> </v-spacer>
       <v-spacer> </v-spacer>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" id="listItems"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" id="bartoDjItems"></v-app-bar-nav-icon>
     </v-app-bar>
     <v-navigation-drawer
       color="deep-purple darken-3"
