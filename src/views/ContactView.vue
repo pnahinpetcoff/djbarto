@@ -19,14 +19,17 @@
                     color="deep-purple darken-3" 
                     icon="fa-brands fa-whatsapp"
                     href="https://api.whatsapp.com/send?phone=541161034185" 
-                    target="_blank">
+                    target="_blank"
+                    aria-label="Text with Whats App"
+                    >
                   </v-btn>
                   <v-btn 
                     id="eMailContact"
                     dense 
                     color="deep-purple darken-3" 
                     icon="fa-regular fa-envelope"
-                    href="mailto:franmarquevich@gmail.com?subject=Interesado%20en%20BartoDJ&cc=focoactiva@gmail.com">
+                    href="mailto:franmarquevich@gmail.com?subject=Interesado%20en%20BartoDJ&cc=focoactiva@gmail.com"
+                    aria-label="eMail with Mail">
                   </v-btn>
                 </v-card-actions>
               </div>

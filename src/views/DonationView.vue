@@ -17,6 +17,7 @@
                     width="30"
                     dense 
                     color="deep-purple darken-3"
+                    aria-label="Donations with MP"
                   >
                     <v-img :src="img1" width="30"> </v-img>
                   </v-btn>
@@ -25,6 +26,7 @@
                     dense 
                     color="deep-purple darken-3" 
                     icon="fa-brands fa-paypal"
+                    aria-label="Donations with PP"
                   >
                   </v-btn>
                 </v-card-actions>
