@@ -8,6 +8,7 @@ import Academy from '../views/AcademyView.vue'
 import Agency from '../views/AgencyView.vue'
 import Home from '../views/HomeView.vue'
 import Donation from '../views/DonationView.vue'
+import NotFound from '../views/PageNotFoundView.vue'
 
 
 const routes = [
@@ -55,6 +56,10 @@ const routes = [
     path: '/donation',
     name: 'donation',
     component: Donation
+  },
+  {
+    path: '/:catchAll(.*)',
+    component: NotFound
   }
 ]
 
