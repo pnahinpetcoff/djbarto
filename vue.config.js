@@ -5,6 +5,15 @@ module.exports = defineConfig({
   pluginOptions: {
     vuetify: {
 			// https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vuetify-loader
-		}
+		},
+    pwa: {
+      name: 'PWA Vue tutor',
+      themeColor: '#fff',
+      msTileColor: '#000',
+      workboxPluginMode: 'GenerateSW',
+      workboxOptions: {
+        skipWaiting: true,
+      },
+    }
   }
 })
