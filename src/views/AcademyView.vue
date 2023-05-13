@@ -3,33 +3,29 @@
     <v-container>
       <h1 class="title">{{'DJ ACADEMY'}}</h1>
       <v-row>
-        <v-col cols="6">
-          <v-card>
-            <v-img
+        <v-col>
+          <v-carousel :cycle="true" show-arrows="hover" color="dark darken-3">
+            <v-carousel-item
               :src="img1"
-            ></v-img>
-          </v-card>
-        </v-col>
-        <v-col cols="6">
-          <v-card>
-            <v-img
+              cover
+            ></v-carousel-item>
+            <v-carousel-item
               :src="img2"
               cover
-            ></v-img>
-          </v-card>
+            ></v-carousel-item>
+            <v-carousel-item
+              :src="img3"
+              cover
+            ></v-carousel-item>
+            <v-carousel-item
+              :src="img4"
+              cover
+            ></v-carousel-item>
+          </v-carousel>
         </v-col>
         <v-col cols="12">
-          <v-card>
+          <v-card color="black">
             <v-card-text v-html="this.text"></v-card-text>
-            <v-row>
-              <v-col cols="3">
-                <v-img
-                  :src="img3">
-                </v-img>
-              </v-col>
-              <v-col cols="9">
-              </v-col>
-            </v-row>
           </v-card>
         </v-col>
         <v-col cols="12"></v-col>
@@ -46,15 +42,19 @@ export default {
   props: {
     img1: {
       type: String,
-      default: 'i8.png'
+      default: 'i2.png'
     },
     img2: {
       type: String,
-      default: 'i9.png'
+      default: 'i3.png'
     },
     img3: {
       type: String,
-      default: 'a3.png'
+      default: 'i4.png'
+    },
+    img4: {
+      type: String,
+      default: 'i5.png'
     }
   },
   name: 'AcademyView',

@@ -7,26 +7,6 @@
     </v-img>
   </div>
 </template>
-            <!-- <v-card>
-              <v-carousel :cycle="true" show-arrows="hover" color="dark darken-3">
-                <v-carousel-item
-                  :src="img1"
-                  cover
-                ></v-carousel-item>
-                <v-carousel-item
-                  :src="img2"
-                  cover
-                ></v-carousel-item>
-                <v-carousel-item
-                  :src="img3"
-                  cover
-                ></v-carousel-item>
-                <v-carousel-item
-                  :src="img4"
-                  cover
-                ></v-carousel-item>
-              </v-carousel>
-            </v-card> -->
 <script>
 
 export default ({
