@@ -1,7 +1,7 @@
 <template>
-  <v-app>
+  <v-app class="ma-3">
     <Navbar/>
-    <div class="ma-4">
+    <div>
       <router-view v-slot="{ Component }">
         <keep-alive>
           <component :is="Component" />
@@ -17,7 +17,7 @@
       <v-col cols="12"></v-col>
     </v-row>
     </div>
-    <Footer class="foot"/>
+    <Footer/>
   </v-app>
 </template>
 
@@ -40,10 +40,5 @@ export default {
 </script>
 
 <style scoped>
-.foot {
-  position:fixed;
-  left:0;
-  bottom:0;
-  padding: 0;
-}
+
 </style>

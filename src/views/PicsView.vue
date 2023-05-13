@@ -1,11 +1,14 @@
 <template>
-    <div>
-      <v-container>
-        <h1>{{'PICS'}}</h1>
-        <v-row>
-          <v-col cols="12">
-            <v-card>
-              <v-carousel :cycle="true" show-arrows="hover" color="deep-purple darken-3">
+  <div id="home">
+    <v-img
+      :src="img1" 
+      cover
+    >
+    </v-img>
+  </div>
+</template>
+            <!-- <v-card>
+              <v-carousel :cycle="true" show-arrows="hover" color="dark darken-3">
                 <v-carousel-item
                   :src="img1"
                   cover
@@ -23,17 +26,7 @@
                   cover
                 ></v-carousel-item>
               </v-carousel>
-            </v-card>
-          </v-col>
-          <v-col cols="12"></v-col>
-          <v-divider thickness="10" color="deep-purple darken-3"></v-divider>
-          <v-col cols="12"></v-col>
-        </v-row>
-      </v-container>
-    </div>
-</template>
-
-
+            </v-card> -->
 <script>
 
 export default ({
@@ -66,5 +59,13 @@ export default ({
 </script>
 
 <style scoped>
+.home{
+  width: 100%; 
+  height: 100%; 
+  display: flex;
+  right: 0%;
+  left: 0%;
+}
+
 </style>
 

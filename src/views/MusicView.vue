@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <v-container>
-      <h1>{{'MUSIC & EVENTS'}}</h1>
+  <div class="music">
+    <v-container >
+      <h1 class="title">{{'MUSIC & EVENTS'}}</h1>
       <v-row>
         <v-col cols="12">
           <iframe title="SoundCloud" width="100%" height="300" scrolling="no" frameborder="yes" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1597418329&color=673ab7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
@@ -22,8 +22,7 @@
           </iframe>          
         </v-col>
         <v-col cols="12"></v-col>
-        <v-divider thickness="10" color="deep-purple darken-3"></v-divider>
-        <v-col cols="12"></v-col>
+        <v-divider thickness="10" color="dark darken-3"></v-divider>
       </v-row>
     </v-container>
   </div>
@@ -35,13 +34,18 @@ export default {
   name: 'MusicView',
   data() {
     return {
-      
     };
   },
-  components: {
+  components: {    
   },
 }
 </script>
 
 <style>
+.music {
+  background-color: black;
+}
+.title {
+  color: white;
+}
 </style>

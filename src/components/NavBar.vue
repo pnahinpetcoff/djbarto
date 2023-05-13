@@ -1,6 +1,6 @@
 <template>
-  <v-container fluid>
-    <v-app-bar app color="deep-purple darken-3">
+<div id="navbar" class="ma-5">
+    <v-app-bar app color="black">
       <v-btn :to="'/'" height="200" max-width="200" @click="drawer = false" id="bartoDjHome" aria-label="Go to BartDj Home Page">
         <v-img src="a1.png" :width="200"> </v-img>
       </v-btn>
@@ -10,7 +10,7 @@
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" id="bartoDjItems" aria-label="Navigate tabs for BartoDj"></v-app-bar-nav-icon>
     </v-app-bar>
     <v-navigation-drawer
-      color="deep-purple darken-3"
+      color="black"
       v-model="drawer"
       location="right"
     >
@@ -26,7 +26,7 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-  </v-container>
+</div>
 </template>
 
 <script>
@@ -85,5 +85,11 @@ export default {
 <style scoped>
 .row-pointer {
   cursor: pointer;
+}
+.navbar {
+  position:fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
 }
 </style>

@@ -16,7 +16,7 @@
                     target="_blank"
                     width="30"
                     dense 
-                    color="deep-purple darken-3"
+                    color="dark darken-3"
                     aria-label="Donations with MP"
                   >
                     <v-img :src="img1" width="30"> </v-img>
@@ -24,7 +24,7 @@
                   <v-btn
                     id="payPalLink"
                     dense 
-                    color="deep-purple darken-3" 
+                    color="dark darken-3" 
                     icon="fa-brands fa-paypal"
                     aria-label="Donations with PP"
                   >
@@ -35,7 +35,7 @@
           </v-card>
         </v-col>
         <v-col cols="12"></v-col>
-        <v-divider thickness="10" color="deep-purple darken-3"></v-divider>
+        <v-divider thickness="10" color="dark darken-3"></v-divider>
         <v-col cols="12"></v-col>
       </v-row>
     </v-container>

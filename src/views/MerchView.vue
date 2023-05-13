@@ -14,7 +14,7 @@
             <v-card-subtitle>USD 20</v-card-subtitle>
             <v-card-text>Confortable cotton made</v-card-text>
             <v-card-actions>
-              <v-btn dense color="deep-purple darken-3" id="buyMeShirtW">BUY ME!</v-btn>
+              <v-btn dense color="dark darken-3" id="buyMeShirtW">BUY ME!</v-btn>
             </v-card-actions>
           </v-card>
         </v-col>
@@ -28,11 +28,11 @@
             <v-card-title>Basic T-Shirt</v-card-title>
             <v-card-subtitle>USD 20</v-card-subtitle>
             <v-card-text>Confortable cotton made</v-card-text>
-            <v-card-actions><v-btn dense color="deep-purple darken-3" id="buyMeShirtB">BUY ME!</v-btn></v-card-actions>
+            <v-card-actions><v-btn dense color="dark darken-3" id="buyMeShirtB">BUY ME!</v-btn></v-card-actions>
           </v-card>
         </v-col>
         <v-col cols="12"></v-col>
-        <v-divider thickness="10" color="deep-purple darken-3"></v-divider>
+        <v-divider thickness="10" color="dark darken-3"></v-divider>
         <v-col cols="12"></v-col>
       </v-row>
     </v-container>
