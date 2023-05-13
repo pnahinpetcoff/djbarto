@@ -1,5 +1,5 @@
 <template>
-  <v-app class="ma-3">
+  <v-app>
     <Navbar/>
     <div>
       <router-view v-slot="{ Component }">
