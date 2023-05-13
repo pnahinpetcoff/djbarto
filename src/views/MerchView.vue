@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="music">
     <v-container>
-      <h2>{{'MERCH'}}</h2>
+      <h2 class="title">{{'MERCH'}}</h2>
       <v-row>
         <v-col cols="6">
           <v-card>
@@ -10,11 +10,12 @@
               :max-height="400" 
               cover
             ></v-img>
-            <v-card-title>Basic T-Shirt</v-card-title>
+            <v-card-title>White T-Shirt</v-card-title>
             <v-card-subtitle>USD 20</v-card-subtitle>
-            <v-card-text>Confortable cotton made</v-card-text>
             <v-card-actions>
-              <v-btn dense color="dark darken-3" id="buyMeShirtW">BUY ME!</v-btn>
+              <v-btn dense color="dark darken-3" id="buyMeShirtW"
+                href="https://api.whatsapp.com/send?phone=541155283428" 
+                target="_blank">BUY ME!</v-btn>
             </v-card-actions>
           </v-card>
         </v-col>
@@ -25,10 +26,16 @@
               :max-height="400" 
               cover
             ></v-img>
-            <v-card-title>Basic T-Shirt</v-card-title>
+            <v-card-title>Black T-Shirt</v-card-title>
             <v-card-subtitle>USD 20</v-card-subtitle>
-            <v-card-text>Confortable cotton made</v-card-text>
-            <v-card-actions><v-btn dense color="dark darken-3" id="buyMeShirtB">BUY ME!</v-btn></v-card-actions>
+            <v-card-actions>
+              <v-btn dense 
+                color="dark darken-3" 
+                id="buyMeShirtB"
+                href="https://api.whatsapp.com/send?phone=541155283428" 
+                target="_blank">
+                BUY ME!</v-btn>
+            </v-card-actions>
           </v-card>
         </v-col>
         <v-col cols="12"></v-col>

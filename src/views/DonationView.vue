@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="music">
     <v-container>
-      <h2>{{'DONATION'}}</h2>
+      <h2 class="title">{{'SUPPORT ME'}}</h2>
       <v-row>
         <v-col >
           <v-card>

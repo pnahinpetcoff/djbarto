@@ -1,6 +1,6 @@
 <template>
   <div class="music">
-    <v-container >
+    <v-container>
       <h2 class="title">{{'MUSIC & EVENTS'}}</h2>
       <v-row>
         <v-col cols="12">
@@ -42,8 +42,10 @@ export default {
 <style>
 .music {
   background-color: black;
+  top: 0;
 }
 .title {
   color: white;
+  top: 20;
 }
 </style>
