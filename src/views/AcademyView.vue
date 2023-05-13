@@ -1,7 +1,7 @@
 <template>
   <div class="music">
     <v-container>
-      <h1 class="title">{{'DJ ACADEMY'}}</h1>
+      <h2 class="title">{{'DJ ACADEMY'}}</h2>
       <v-row>
         <v-col>
           <v-carousel :cycle="true" show-arrows="hover" color="dark darken-3">

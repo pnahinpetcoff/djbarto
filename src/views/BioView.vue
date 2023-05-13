@@ -1,29 +1,16 @@
 <template>
-  <div>
+  <div class="music">
     <v-container>
-      <h1>{{'BIO'}}</h1>
+      <h2 class="title">{{'BIO'}}</h2>
       <v-row>
         <v-col cols="12">
-          <v-card>
             <v-img
               :src="img1"
-              :max-height="400" 
             ></v-img>
-          </v-card>
         </v-col>
         <v-col cols="12">
-          <v-card>
+          <v-card color="black">
             <v-card-text v-html="this.text"></v-card-text>
-            <v-row>
-              <v-col cols="3">
-                <v-img
-                  width="100"
-                  :src="img2">
-                </v-img>
-              </v-col>
-              <v-col cols="9">
-              </v-col>
-            </v-row>
           </v-card>
         </v-col>        
         <v-col cols="12"></v-col>

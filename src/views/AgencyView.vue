@@ -1,7 +1,7 @@
 <template>
   <div class="music">
     <v-container>
-      <h1 class="title">{{'FOCO AGENCY'}}</h1>
+      <h2 class="title">{{'FOCO AGENCY'}}</h2>
       <v-row>
         <v-col>
           <v-carousel :cycle="true" show-arrows="hover" color="dark darken-3">
@@ -11,14 +11,6 @@
             ></v-carousel-item>
             <v-carousel-item
               :src="img2"
-              cover
-            ></v-carousel-item>
-            <v-carousel-item
-              :src="img3"
-              cover
-            ></v-carousel-item>
-            <v-carousel-item
-              :src="img4"
               cover
             ></v-carousel-item>
           </v-carousel>

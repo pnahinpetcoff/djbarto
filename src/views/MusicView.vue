@@ -1,7 +1,7 @@
 <template>
   <div class="music">
     <v-container >
-      <h1 class="title">{{'MUSIC & EVENTS'}}</h1>
+      <h2 class="title">{{'MUSIC & EVENTS'}}</h2>
       <v-row>
         <v-col cols="12">
           <iframe title="SoundCloud" width="100%" height="200" scrolling="no" frameborder="yes" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1597418329&color=673ab7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">

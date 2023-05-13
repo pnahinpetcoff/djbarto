@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container>
-      <h1>{{'MERCH'}}</h1>
+      <h2>{{'MERCH'}}</h2>
       <v-row>
         <v-col cols="6">
           <v-card>
