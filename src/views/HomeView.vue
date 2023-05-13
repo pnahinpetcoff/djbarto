@@ -1,5 +1,5 @@
 <template>
-      <Pics img1='i1 (2).png'/>
+      <Pics img1='i1.png'/>
       <Music/>
       <Academy img1='i2 (2).png' img2='i3 (2).png' img3='i4 (2).png' img4='i5 (2).png'/>
       <Agency img1='i10 (2).png' img2='i11 (2).png' img3='a2 (2).png'/>
