@@ -15,18 +15,6 @@ export default ({
       type: String,
       default: 'i1.png'
     },
-    img2: {
-      type: String,
-      default: 'i2.png'
-    },
-    img3: {
-      type: String,
-      default: 'i3.png'
-    },
-    img4: {
-      type: String,
-      default: 'i4.png'
-    }
   },
   name: "PicsView",
   data() {

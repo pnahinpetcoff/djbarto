@@ -37,11 +37,6 @@ export default {
       drawer: false,
       items: [
         {
-          title: "PICS",
-          route: "pics",
-          id: 2,
-        },
-        {
           title: "MUSIC AND EVENTS",
           route: "music",
           id: 6,
@@ -90,6 +85,7 @@ export default {
   position:fixed;
   bottom:0;
   left:0;
+  right: 0;
   width: 100%;
 }
 </style>
