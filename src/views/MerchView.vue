@@ -4,7 +4,7 @@
       <h2 class="title">{{'MERCH'}}</h2>
       <v-row>
         <v-col cols="6">
-          <v-card>
+          <v-card color="black">
             <v-img
               :src="img1"
               :max-height="400" 
@@ -20,7 +20,7 @@
           </v-card>
         </v-col>
         <v-col cols="6">
-          <v-card>
+          <v-card color="black">
             <v-img
               :src="img2"
               :max-height="400" 

@@ -4,12 +4,12 @@
       <h2 class="title">{{'MUSIC & EVENTS'}}</h2>
       <v-row>
         <v-col cols="12">
-          <iframe title="SoundCloud" width="100%" height="200" scrolling="no" frameborder="yes" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1597418329&color=673ab7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+          <iframe title="SoundCloud" width="100%" height="200" scrolling="no" frameborder="yes" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1597418329&color=000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
           </iframe>
-          <div style="font-size: 10px; color: #673ab7;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-            <a rel="preconnect" href="https://soundcloud.com/barto_dj" title="BARTO" target="_blank" style="color: #673ab7; text-decoration: none;">BARTO
+          <div style="font-size: 10px; color: #000000;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+            <a rel="preconnect" href="https://soundcloud.com/barto_dj" title="BARTO" target="_blank" style="color: #FFFFFF; text-decoration: none;">BARTO
             </a> · 
-            <a rel="preconnect" href="https://soundcloud.com/barto_dj/sets/remix-mashups" title="Remix &amp; Mashups" target="_blank" style="color: #673ab7; text-decoration: none;">Remix &amp; Mashups
+            <a rel="preconnect" href="https://soundcloud.com/barto_dj/sets/remix-mashups" title="Remix &amp; Mashups" target="_blank" style="color: #FFFFFF; text-decoration: none;">Remix &amp; Mashups
             </a>
           </div>
         </v-col>

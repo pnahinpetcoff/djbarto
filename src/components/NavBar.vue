@@ -37,7 +37,7 @@ export default {
       drawer: false,
       items: [
         {
-          title: "MUSIC AND EVENTS",
+          title: "MUSIC",
           route: "music",
           id: 6,
         },
@@ -67,7 +67,7 @@ export default {
           id: 3,
         },
         {
-          title: "DONATION",
+          title: "SUPPORT ME",
           route: "donation",
           id: 3,
         }

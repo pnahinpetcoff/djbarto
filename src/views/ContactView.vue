@@ -4,7 +4,7 @@
       <h2 class="title">{{'CONTACT'}}</h2>
       <v-row>
         <v-col >
-          <v-card>
+          <v-card color="black">
             <div class="d-flex flex-no-wrap justify-space-between">
               <div>
                 <v-card-title>{{'BOOKING & MANAGEMENT'}}</v-card-title> 
@@ -37,7 +37,7 @@
           </v-card>
         </v-col >
         <v-col >
-          <v-card>
+          <v-card color="black">
             <div class="d-flex flex-no-wrap justify-space-between">
               <div>
                 <v-card-title>{{'COURSES & DIRECT FEEDBACK'}}</v-card-title> 

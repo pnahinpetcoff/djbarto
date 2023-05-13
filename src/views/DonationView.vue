@@ -4,7 +4,7 @@
       <h2 class="title">{{'SUPPORT ME'}}</h2>
       <v-row>
         <v-col >
-          <v-card>
+          <v-card color="black">
             <div class="d-flex flex-no-wrap justify-space-between">
               <div>
                 <v-card-title>{{'¿Querés ayudar al artista?'}}</v-card-title> 
