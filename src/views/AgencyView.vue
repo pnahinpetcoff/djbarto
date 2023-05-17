@@ -1,18 +1,40 @@
 <template>
   <div class="music">
     <v-container>
-      <h2 class="title">{{'FOCO AGENCY'}}</h2>
       <v-row>
+        <v-col cols="12">
+        </v-col>
+        <v-col cols="12">
+        </v-col>
+        <v-col cols="12">
+          <h2 class="title">{{'FOCO AGENCY'}}</h2>
+        </v-col>
         <v-col>
-          <v-carousel :cycle="true" show-arrows="hover" color="dark darken-3">
+          <v-carousel :cycle="true" color="dark darken-3" hide-delimiters hide-delimiter-background>
             <v-carousel-item
               :src="img1"
-              cover
-            ></v-carousel-item>
+            >
+            </v-carousel-item>
             <v-carousel-item
               :src="img2"
-              cover
-            ></v-carousel-item>
+            >
+            </v-carousel-item>
+            <v-carousel-item
+              :src="img3"
+            >
+            </v-carousel-item>
+            <v-carousel-item
+              :src="img4"
+            >
+            </v-carousel-item>
+            <v-carousel-item
+              :src="img5"
+            >
+            </v-carousel-item>
+            <v-carousel-item
+              :src="img6"
+            >
+            </v-carousel-item>
           </v-carousel>
         </v-col>
         <v-col cols="12">
@@ -32,21 +54,33 @@ export default {
   props: {
     img1: {
       type: String,
-      default: 'i10.png'
+      default: '/agency/1.png'
     },
     img2: {
       type: String,
-      default: 'i11.png'
+      default: '/agency/2.png'
     },
     img3: {
       type: String,
-      default: 'a2.png'
+      default: '/agency/3.png'
+    },
+    img4: {
+      type: String,
+      default: '/agency/4.png'
+    },
+    img5: {
+      type: String,
+      default: '/agency/5.png'
+    },
+    img6: {
+      type: String,
+      default: '/agency/6.png'
     }
   },
   name: 'FocoView',
   data() {
     return {
-       text: 'Foco es una agencia que acompaña el desarrollo de  artistas, emergentes e independientes.</br></br>Donde trabaja en la totalidad del ecosistema de la industria musical. Desde la comunicación y relaciones públicas a management, booking, estrategias de marketing para promoción de nuevos lanzamientos, distribución de obras en plataformas digitales y la administración de tu proyecto.</br></br>Principalmente dedicados a un sonido urbano y actual donde nos enfocamos al Trap, Rap, Indie y Música electrónica. Nuestra experiencia nos obliga a estar en constante movimiento para estar a la vanguardia y activando.'
+       text: 'FOCO is an agency that accompanies the growth of emerging and independent artists, operating within the entire music industry ecosystem. We provide comprehensive services ranging from communication and public relations to artist management, booking, marketing strategies for promoting new releases, digital platform distribution, and project administration.</br></br>Our main focus is on contemporary urban sounds, with an emphasis on Trap, Rap, Indie, and Electronic music. Our extensive experience drives us to constantly stay ahead and take proactive steps.'
     };
   },
   components: {

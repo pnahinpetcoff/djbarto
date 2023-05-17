@@ -1,8 +1,8 @@
 <template>
-<div id="navbar">
+  <div id="navbar">
     <v-app-bar app color="black">
-      <v-btn :to="'/'" height="200" :max-width="200" @click="drawer = false" id="bartoDjHome" aria-label="Go to BartDj Home Page">
-        <v-img src="a1.png" :width="200"> </v-img>
+      <v-btn :to="'/'" height="200" :max-width="200" flat @click="drawer = false" id="bartoDjHome" aria-label="Go to BartDj Home Page">
+        <v-img src="/navbar/1.png" :width="200"> </v-img>
       </v-btn>
       <v-spacer> </v-spacer>
       <v-spacer> </v-spacer>
@@ -26,7 +26,7 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-</div>
+  </div>
 </template>
 
 <script>
@@ -82,10 +82,9 @@ export default {
   cursor: pointer;
 }
 .navbar {
-  position:fixed;
+  position:absolute;
   bottom:0;
   left:0;
   right: 0;
-  width: 100%;
 }
 </style>

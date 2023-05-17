@@ -1,42 +1,42 @@
 <template>
   <div class="music">
     <v-container>
-      <h2 class="title">{{'SUPPORT ME'}}</h2>
       <v-row>
-        <v-col >
+        <v-col cols="12">
+        </v-col>
+        <v-col cols="12">
+        </v-col>
+        <v-col cols="12">
+          <h2 class="title">{{'SUPPORT ME'}}</h2>
+        </v-col>
+        <v-col cols="12">
           <v-card color="black">
-            <div class="d-flex flex-no-wrap justify-space-between">
-              <div>
-                <v-card-title>{{'¿Querés ayudar al artista?'}}</v-card-title> 
-                <v-card-subtitle>{{'¡Invitame un cafecito!'}}</v-card-subtitle>
-                <v-card-actions>
-                  <v-btn
-                    id="mercadoPagoLink"
-                    href="https://mpago.la/2j2MPsN"
-                    target="_blank"
-                    width="30"
-                    dense 
-                    color="dark darken-3"
-                    aria-label="Donations with MP"
-                  >
-                    <v-img :src="img1" width="30"> </v-img>
-                  </v-btn>
-                  <v-btn
-                    id="payPalLink"
-                    dense 
-                    color="dark darken-3" 
-                    icon="fa-brands fa-paypal"
-                    aria-label="Donations with PP"
-                  >
-                  </v-btn>
-                </v-card-actions>
-              </div>
-            </div>
+            <v-card-title></v-card-title> 
+            <v-card-subtitle></v-card-subtitle>
+            <v-card-text v-html="this.text"></v-card-text>
+            <v-card-actions>
+              <v-btn
+                id="mercadoPagoLink"
+                href="https://mpago.la/2j2MPsN"
+                target="_blank"
+                width="30"
+                dense 
+                aria-label="Donations with MP"
+              >
+                <v-img :src="img1" width="30"> </v-img>
+              </v-btn>
+              <v-btn
+                id="payPalLink"
+                href="https://www.paypal.com/paypalme/bartodj/2"
+                target="_blank"
+                dense  
+                icon="fa-brands fa-paypal"
+                aria-label="Donations with PP"
+              >
+              </v-btn>
+            </v-card-actions>
           </v-card>
         </v-col>
-        <v-col cols="12"></v-col>
-        <v-divider thickness="10" color="dark darken-3"></v-divider>
-        <v-col cols="12"></v-col>
       </v-row>
     </v-container>
   </div>
@@ -48,13 +48,13 @@ export default {
   props: {
     img1: {
       type: String,
-      default: 'a5.png'
+      default: '/donation/1.png'
     }
   },
   name: 'ContactView',
   data() {
     return {
-      
+      text: 'Thank you for visiting my website and showing interest in my work as a DJ/Producer. I am passionate about what I do, and I strive to bring joy and excitement to every performance. If you have enjoyed my mixes or music or have been following my journey, here its a link where you can support me and help me to keep moving foward :)'
     };
   },
   components: {

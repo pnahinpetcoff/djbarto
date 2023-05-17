@@ -1,8 +1,14 @@
 <template>
   <div class="music">
     <v-container>
-      <h2 class="title">{{'MERCH'}}</h2>
       <v-row>
+        <v-col cols="12">
+        </v-col>
+        <v-col cols="12">
+        </v-col>
+        <v-col cols="12">
+          <h2 class="title">{{'MERCH'}}</h2>
+        </v-col>
         <v-col cols="6">
           <v-card color="black">
             <v-img
@@ -52,11 +58,11 @@ export default {
   props: {
     img1: {
       type: String,
-      default: 'i6.png'
+      default: '/merch/1.png'
     },
     img2: {
       type: String,
-      default: 'i7.png'
+      default: '/merch/2.png'
     }
   },
   name: 'MerchView',

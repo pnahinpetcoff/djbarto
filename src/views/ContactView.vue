@@ -1,9 +1,15 @@
 <template>
   <div class="music">
     <v-container>
-      <h2 class="title">{{'CONTACT'}}</h2>
       <v-row>
-        <v-col >
+        <v-col cols="12">
+        </v-col>
+        <v-col cols="12">
+        </v-col>
+        <v-col cols="12">
+          <h2 class="title">{{'CONTACT'}}</h2>
+        </v-col>
+        <v-col cols="12">
           <v-card color="black">
             <div class="d-flex flex-no-wrap justify-space-between">
               <div>
@@ -35,8 +41,8 @@
               </div>
             </div>
           </v-card>
-        </v-col >
-        <v-col >
+        </v-col>
+        <v-col cols="12">
           <v-card color="black">
             <div class="d-flex flex-no-wrap justify-space-between">
               <div>
@@ -84,7 +90,7 @@ export default {
   data() {
     return {
       textAgency: 'franmarquevich@gmail.com</br>focoactiva@gmail.com</br>+54 9 11 55283428</br>',
-      textAcademy: 'bartolomeitomas@gmail.com</br>focoactiva@gmail.com</br>+54 9 11 55283428</br>'
+      textAcademy: 'bartolomeitomas@gmail.com</br>+54 9 11 55283428</br>'
     };
   },
   components: {

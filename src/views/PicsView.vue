@@ -13,7 +13,7 @@ export default ({
   props: {
     img1: {
       type: String,
-      default: 'i1.png'
+      default: '/pics/1.png'
     },
   },
   name: "PicsView",
