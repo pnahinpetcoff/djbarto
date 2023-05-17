@@ -43,10 +43,6 @@
               :src="img8"
             >
             </v-carousel-item>
-            <v-carousel-item
-              :src="img9"
-            >
-            </v-carousel-item>
           </v-carousel>
         </v-col>
         <v-col cols="12">
