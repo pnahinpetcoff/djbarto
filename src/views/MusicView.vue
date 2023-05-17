@@ -3,6 +3,10 @@
     <v-container>
       <v-row>
         <v-col cols="12">
+        </v-col>
+        <v-col cols="12">
+        </v-col>
+        <v-col cols="12">
           <h2 class="title">{{'MUSIC'}}</h2>
         </v-col>
         <v-col cols="12">
