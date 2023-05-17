@@ -1,8 +1,8 @@
 <template>
   <div id="navbar">
     <v-app-bar app color="black">
-      <v-btn :to="'/'" height="200" :max-width="200" flat @click="drawer = false" id="bartoDjHome" aria-label="Go to BartDj Home Page" src='/navbar/1.png'>
-        
+      <v-btn :to="'/'" height="200" :max-width="200" flat @click="drawer = false" id="bartoDjHome" aria-label="Go to BartDj Home Page">
+        <v-img src="/navbar/1.png" :width="200"> </v-img>
       </v-btn>
       <v-spacer> </v-spacer>
       <v-spacer> </v-spacer>
