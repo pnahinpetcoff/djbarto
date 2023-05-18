@@ -52,12 +52,12 @@ const routes = [
     component: Agency
   },
   {
-    path: 'https://bartodj.com/donation',
+    path: '/donation',
     name: 'donation',
     component: Donation
   },
   {
-    path: 'https://bartodj.com/:catchAll(.*)',
+    path: '/:catchAll(.*)',
     component: NotFound
   }
 ]
