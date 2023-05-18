@@ -4,12 +4,13 @@
     <Navbar/>
     
     <v-row>
-      <v-col cols="12">
+    <v-col cols="12">
     <router-view v-slot="{ Component }">
       <keep-alive>
         <component :is="Component" />
       </keep-alive>
-    </router-view></v-col>
+    </router-view>
+    </v-col>
     </v-row>
     <v-row>
       <v-col cols="12" class="text-center">
