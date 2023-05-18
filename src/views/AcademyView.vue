@@ -1,5 +1,5 @@
 <template>
-  <div class="music">
+  <div class="content">
     <v-container>
       <v-row>
         <v-col cols="12">
@@ -90,16 +90,12 @@ export default {
     img8: {
       type: String,
       default: '/academy/8.png'
-    },
-    img9: {
-      type: String,
-      default: '/academy/9.png'
     }
   },
   name: 'AcademyView',
   data() {
     return {
-       text: 'DJ Academy is an educational institution that has been working within the music industry since 2010, with a primary focus on training students in the art of DJing, music production, and artist marketing strategies.</br></br>Barto serves as the director and teacher, bringing his passion for music and the art of mixing songs into his classes. He also collaborates with other artists in different traveling events to showcase emerging talents in the electronic music and hip hop scenes in Argentina.'
+       text: 'DJ Academy is a reputable educational institution that has been actively involved in the music industry since 2010. Their main objective is to provide comprehensive training to students in the fields of DJing, music production, and artist marketing strategies.</br></br>At the helm of DJ Academy is Barto, who serves as both the director and teacher. His deep-rooted passion for music and the skill of seamlessly blending tracks is evident in his instructional approach. Moreover, Barto frequently collaborates with various artists and actively participates in diverse traveling events. Through these collaborations, he helps to showcase up-and-coming talents within the electronic music and hip hop scenes in Argentina.'
     };
   },
   components: {

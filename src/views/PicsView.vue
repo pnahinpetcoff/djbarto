@@ -33,6 +33,7 @@ export default ({
   display: flex;
   right: 0%;
   left: 0%;
+  top: 50%;
 }
 
 </style>

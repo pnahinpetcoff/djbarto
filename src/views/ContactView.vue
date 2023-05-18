@@ -1,5 +1,5 @@
 <template>
-  <div class="music">
+  <div class="content">
     <v-container>
       <v-row>
         <v-col cols="12">
@@ -75,9 +75,6 @@
             </div>
           </v-card>
         </v-col>
-        <v-col cols="12"></v-col>
-        <v-divider thickness="10" color="dark darken-3"></v-divider>
-        <v-col cols="12"></v-col>
       </v-row>
     </v-container>
   </div>
@@ -89,8 +86,8 @@ export default {
   name: 'ContactView',
   data() {
     return {
-      textAgency: 'franmarquevich@gmail.com</br>focoactiva@gmail.com</br>+54 9 11 55283428</br>',
-      textAcademy: 'bartolomeitomas@gmail.com</br>+54 9 11 55283428</br>'
+      textAgency: 'franmarquevich@gmail.com</br>focoactiva@gmail.com</br>+54 9 11 6103 4185</br>',
+      textAcademy: 'bartolomeitomas@gmail.com</br>+54 9 11 5528 3428</br>'
     };
   },
   components: {

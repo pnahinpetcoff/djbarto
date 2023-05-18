@@ -36,4 +36,10 @@ export default {
 </script>
 
 <style>
+.content {
+  background-color: black;
+}
+.title {
+  color: white;
+}
 </style>

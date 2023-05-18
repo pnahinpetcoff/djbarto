@@ -1,5 +1,5 @@
 <template>
-  <div class="music">
+  <div class="content">
     <v-container>
       <v-row>
         <v-col cols="12">
@@ -64,7 +64,7 @@ export default {
   name: 'BioView',
   data() {
     return {
-       text: 'Tomas Bartolomei AKA Barto, its a versatile open-format DJ and music producer who effortlessly merges a variety of musical styles, with a particular emphasis on hip hop, funk, R&B, and house.</br></br>Barto is meticulous track selection considers the venue, audience, and collaborating artists. From creating the perfect vibe at clubs to electrifying festival crowds, his curated sound delivers unforgettable experiences. As a music producer, he also create remixes and mashups specifically tailored for his sets, adding an extra layer of creativity and uniqueness to his performances.</br></br>In addition, Barto proudly serves as the Director of DJ Academy, a music school in Buenos Aires renowned for its instruction in DJing. Sharing his knowledge and inspiring the next generation of DJs is a true passion of his.</br></br>Beyond his role as a DJ and educator, Barto is the owner of Foco, an esteemed event production company and artist agency. Through FOCO, Barto masterfully brings together exceptional talents and crafts extraordinary music events that deeply resonate with audiences.</br></br>Furthermore, Barto embarks on an exciting musical side project called Posadas Experience, where he collaborates alongside his brother Lucas. Together, they harmoniously merge the art of DJing with the captivating sounds of synths and guitars, resulting in a truly unique and enthralling musical experience.'
+       text: 'Tomas Bartolomei AKA Barto, its a versatile open format DJ and music producer who merges a variety of musical styles, with a particular emphasis on hip hop, funk, R&B, and house.</br></br>His meticulous track selection considers the venue, audience, and collaborating artists. From creating the incredible vibe at clubs to sets the perfect mood for corporate events, chill gatherings, or bars. His curated sound delivers unforgettable experiences.</br>As a music producer, he also create remixes and mashups specifically tailored for his sets, adding an extra layer of creativity and uniqueness to his performances.</br></br>In addition, Barto serves as the director of DJ Academy, a music school in Buenos Aires. Sharing his knowledge and inspiring the next generation of DJs is a true passion of his.</br></br>Beyond his role as a DJ and educator, Barto is the owner of Foco, an event production company and artist agency. Through FOCO, Barto brings together exceptional talents and crafts extraordinary music events that deeply resonate with audiences.</br></br>Furthermore, Barto embarks on an exciting musical side project called Posadas Experience, where he collaborates alongside his brother Lucas. Together, they harmoniously merge the art of DJing with the captivating sounds of synths and guitars, resulting in a truly unique and enthralling musical experience.'
     };
   },
   components: {

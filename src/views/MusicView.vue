@@ -1,5 +1,5 @@
 <template>
-  <div class="music">
+  <div class="content">
     <v-container>
       <v-row>
         <v-col cols="12">
@@ -46,10 +46,4 @@ export default {
 </script>
 
 <style>
-.music {
-  background-color: black;
-}
-.title {
-  color: white;
-}
 </style>

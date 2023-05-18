@@ -1,5 +1,5 @@
 <template>
-  <div class="music">
+  <div class="content">
     <v-container>
       <v-row>
         <v-col cols="12">
@@ -44,9 +44,41 @@
             </v-card-actions>
           </v-card>
         </v-col>
-        <v-col cols="12"></v-col>
-        <v-divider thickness="10" color="dark darken-3"></v-divider>
-        <v-col cols="12"></v-col>
+        <v-col cols="6">
+          <v-card color="black">
+            <v-img
+              :src="img3"
+              :max-height="400" 
+              cover
+            ></v-img>
+            <v-card-title>Purple Hat</v-card-title>
+            <v-card-subtitle>USD 10</v-card-subtitle>
+            <v-card-actions>
+              <v-btn dense color="dark darken-3" id="buyMeShirtW"
+                href="https://api.whatsapp.com/send?phone=541155283428" 
+                target="_blank">BUY ME!</v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-col>
+        <v-col cols="6">
+          <v-card color="black">
+            <v-img
+              :src="img4"
+              :max-height="400" 
+              cover
+            ></v-img>
+            <v-card-title>Cream Hat</v-card-title>
+            <v-card-subtitle>USD 10</v-card-subtitle>
+            <v-card-actions>
+              <v-btn dense 
+                color="dark darken-3" 
+                id="buyMeShirtB"
+                href="https://api.whatsapp.com/send?phone=541155283428" 
+                target="_blank">
+                BUY ME!</v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-col>
       </v-row>
     </v-container>
   </div>
@@ -63,6 +95,14 @@ export default {
     img2: {
       type: String,
       default: '/merch/2.png'
+    },
+    img3: {
+      type: String,
+      default: '/merch/3.png'
+    },
+    img4: {
+      type: String,
+      default: '/merch/4.png'
     }
   },
   name: 'MerchView',

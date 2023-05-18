@@ -1,5 +1,5 @@
 <template>
-  <div class="music">
+  <div class="content">
     <v-container>
       <v-row>
         <v-col cols="12">
@@ -80,7 +80,7 @@ export default {
   name: 'FocoView',
   data() {
     return {
-       text: 'FOCO is an agency that accompanies the growth of emerging and independent artists, operating within the entire music industry ecosystem. We provide comprehensive services ranging from communication and public relations to artist management, booking, marketing strategies for promoting new releases, digital platform distribution, and project administration.</br></br>Our main focus is on contemporary urban sounds, with an emphasis on Trap, Rap, Indie, and Electronic music. Our extensive experience drives us to constantly stay ahead and take proactive steps.'
+       text: 'FOCO is an agency that supports the growth of emerging and independent artists throughout the entire music industry ecosystem. Offering a wide range of services, including communication, public relations, artist management, booking, marketing strategies for new releases, digital platform distribution, and project administration.</br></br>Our primary focus is on contemporary urban sounds, with a particular emphasis on Trap, Rap, Indie, and Electronic music. With our extensive experience in the industry, we are constantly striving to stay ahead of the game and take proactive steps to help our clients succeed.'
     };
   },
   components: {
