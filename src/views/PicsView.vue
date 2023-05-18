@@ -1,10 +1,13 @@
 <template>
   <div id="home">
-    <v-img
-      :src="img1" 
-      cover
-    >
-    </v-img>
+    <v-row>
+      <v-col cols="12">
+        <v-img
+          :src="img1" 
+        >
+        </v-img>
+      </v-col>
+    </v-row>
   </div>
 </template>
 <script>
@@ -29,11 +32,10 @@ export default ({
 <style scoped>
 .home{
   width: 100%; 
-  height: 100%; 
+  height: 100%;
   display: flex;
   right: 0%;
   left: 0%;
-  top: 50%;
 }
 
 </style>
