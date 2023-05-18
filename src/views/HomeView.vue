@@ -1,9 +1,9 @@
 <template>
       <Pics/>
       <Music/>
+      <Bio/>
       <Academy/>
       <Agency/>
-      <Bio/>
       <Merch/>
       <Contact/>
       <Donation/>

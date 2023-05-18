@@ -42,6 +42,11 @@ export default {
           id: 6,
         },
         {
+          title: "BIO",
+          route: "bio",
+          id: 4,
+        },
+        {
           title: "DJ ACADEMY",
           route: "academy",
           id: 7,
@@ -50,11 +55,6 @@ export default {
           title: "FOCO AGENCY",
           route: "agency",
           id: 8,
-        },
-        {
-          title: "BIO",
-          route: "bio",
-          id: 4,
         },
         {
           title: "MERCH",

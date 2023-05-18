@@ -11,8 +11,6 @@
         </v-col>
         <v-col cols="12">
           <v-card color="black">
-            <v-card-title></v-card-title> 
-            <v-card-subtitle></v-card-subtitle>
             <v-card-text v-html="this.text"></v-card-text>
             <v-card-actions>
               <v-btn
@@ -54,7 +52,7 @@ export default {
   name: 'ContactView',
   data() {
     return {
-      text: 'Thank you for visiting my website and showing interest in my work as a DJ/Producer. I am passionate about what I do, and I strive to bring joy and excitement to every performance. If you have enjoyed my mixes or music or have been following my journey, here its a link where you can support me and help me to keep moving foward :)</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>'
+      text: 'Thank you for visiting my website and showing interest in my work as a DJ/Producer. I am passionate about what I do, and I strive to bring joy and excitement to every performance. If you have enjoyed my mixes or music or have been following my journey, here its a link where you can support me and help me to keep moving foward :)'
     };
   },
   components: {

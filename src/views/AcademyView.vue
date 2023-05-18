@@ -9,8 +9,8 @@
         <v-col cols="12">
           <h2 class="title">{{'DJ ACADEMY'}}</h2>
         </v-col>
-        <v-col>
-          <v-carousel :cycle="true" color="dark darken-3" hide-delimiters hide-delimiter-background>
+        <v-col cols="12">
+          <v-carousel :cycle="true" color="dark darken-3" hide-delimiters hide-delimiter-background :height="400">
             <v-carousel-item
               :src="img1"
             >

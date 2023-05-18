@@ -16,7 +16,7 @@
               :max-height="400" 
               cover
             ></v-img>
-            <v-card-title>White T-Shirt</v-card-title>
+            <v-card-title>Black Shirt</v-card-title>
             <v-card-subtitle>USD 20</v-card-subtitle>
             <v-card-actions>
               <v-btn dense color="dark darken-3" id="buyMeShirtW"
@@ -32,7 +32,7 @@
               :max-height="400" 
               cover
             ></v-img>
-            <v-card-title>Black T-Shirt</v-card-title>
+            <v-card-title>White Shirt</v-card-title>
             <v-card-subtitle>USD 20</v-card-subtitle>
             <v-card-actions>
               <v-btn dense 
@@ -52,7 +52,7 @@
               cover
             ></v-img>
             <v-card-title>Purple Hat</v-card-title>
-            <v-card-subtitle>USD 10</v-card-subtitle>
+            <v-card-subtitle>USD 15</v-card-subtitle>
             <v-card-actions>
               <v-btn dense color="dark darken-3" id="buyMeShirtW"
                 href="https://api.whatsapp.com/send?phone=541155283428" 
@@ -68,7 +68,7 @@
               cover
             ></v-img>
             <v-card-title>Cream Hat</v-card-title>
-            <v-card-subtitle>USD 10</v-card-subtitle>
+            <v-card-subtitle>USD 15</v-card-subtitle>
             <v-card-actions>
               <v-btn dense 
                 color="dark darken-3" 
