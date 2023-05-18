@@ -2,17 +2,19 @@
 <div class="ma-3">  
   <v-app>
     <Navbar/>
+    
+    <v-row>
+      <v-col cols="12">
     <router-view v-slot="{ Component }">
       <keep-alive>
         <component :is="Component" />
       </keep-alive>
-    </router-view>
-    <v-row >
-      <v-col cols="3"></v-col>
-      <v-col cols="6" class="text-center">
-        <text>SalchiDevs®</text>
+    </router-view></v-col>
+    </v-row>
+    <v-row>
+      <v-col cols="12" class="text-center">
+        <v-card rounded="0" elevation="20" color="black" text="SalchiDevs®"></v-card>
       </v-col>
-      <v-col cols="3"></v-col>
       <v-col cols="12"></v-col>
       <v-col cols="12"></v-col>
     </v-row>
@@ -34,11 +36,8 @@ export default {
   },
 
   data: () => ({
-    ldPage: true
-  }),
-    mounted() {
-      this.true = false
-    }, 
+    
+  })
 };
 </script>
 

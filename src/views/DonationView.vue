@@ -54,7 +54,7 @@ export default {
   name: 'ContactView',
   data() {
     return {
-      text: 'Thank you for visiting my website and showing interest in my work as a DJ/Producer. I am passionate about what I do, and I strive to bring joy and excitement to every performance. If you have enjoyed my mixes or music or have been following my journey, here its a link where you can support me and help me to keep moving foward :)'
+      text: 'Thank you for visiting my website and showing interest in my work as a DJ/Producer. I am passionate about what I do, and I strive to bring joy and excitement to every performance. If you have enjoyed my mixes or music or have been following my journey, here its a link where you can support me and help me to keep moving foward :)</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>'
     };
   },
   components: {
