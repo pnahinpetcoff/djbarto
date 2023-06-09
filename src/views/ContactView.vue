@@ -57,7 +57,7 @@
                     dense 
                     color="dark darken-3" 
                     icon="fa-brands fa-whatsapp"
-                    href="https://api.whatsapp.com/send?phone=541155283428" 
+                    href="https://api.whatsapp.com/send?phone=34635392894" 
                     target="_blank"
                     aria-label="Text with Whats App"
                     >
@@ -87,7 +87,7 @@ export default {
   data() {
     return {
       textAgency: 'franmarquevich@gmail.com</br>focoactiva@gmail.com</br>+54 9 11 6103 4185</br>',
-      textAcademy: 'bartolomeitomas@gmail.com</br>+54 9 11 5528 3428</br>'
+      textAcademy: 'bartolomeitomas@gmail.com</br>+34 635 39 28 94</br>'
     };
   },
   components: {

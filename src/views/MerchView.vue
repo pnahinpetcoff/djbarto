@@ -20,7 +20,7 @@
             <v-card-subtitle>USD 20</v-card-subtitle>
             <v-card-actions>
               <v-btn dense color="dark darken-3" id="buyMeShirtW"
-                href="https://api.whatsapp.com/send?phone=541155283428" 
+                href="https://api.whatsapp.com/send?phone=34635392894" 
                 target="_blank">BUY ME!</v-btn>
             </v-card-actions>
           </v-card>
@@ -38,7 +38,7 @@
               <v-btn dense 
                 color="dark darken-3" 
                 id="buyMeShirtB"
-                href="https://api.whatsapp.com/send?phone=541155283428" 
+                href="https://api.whatsapp.com/send?phone=34635392894" 
                 target="_blank">
                 BUY ME!</v-btn>
             </v-card-actions>
@@ -55,7 +55,7 @@
             <v-card-subtitle>USD 15</v-card-subtitle>
             <v-card-actions>
               <v-btn dense color="dark darken-3" id="buyMeShirtW"
-                href="https://api.whatsapp.com/send?phone=541155283428" 
+                href="https://api.whatsapp.com/send?phone=34635392894" 
                 target="_blank">BUY ME!</v-btn>
             </v-card-actions>
           </v-card>
@@ -73,7 +73,7 @@
               <v-btn dense 
                 color="dark darken-3" 
                 id="buyMeShirtB"
-                href="https://api.whatsapp.com/send?phone=541155283428" 
+                href="https://api.whatsapp.com/send?phone=34635392894" 
                 target="_blank">
                 BUY ME!</v-btn>
             </v-card-actions>
